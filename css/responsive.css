@@ -1,6 +1,6 @@
 
 /* 1. Small devices (tablets, 768px and Up) */
-@media (min-width: 768px) { 
+@media (min-width: 640px) { 
 
 	.float-left{
 		float: left;
