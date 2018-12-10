@@ -485,10 +485,7 @@ a:hover>span.site-name{
     width: 100%;
     height: 100%;
     max-width: 100%;
-    background-size: cover;
-    background: url('/img/slider/china.png');
-    background-image: url("D:/Documents/Portfolio/oak-master/img/slider/china.png");
-    background-size: 100% 100%;
+    
 }
 /*Slider Home*/
 .slider-wrapper {
