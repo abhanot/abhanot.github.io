@@ -71,7 +71,7 @@
 }
 
 /* 2. Small devices (tablets, 768px and Down) */
-@media (max-width: 768px){
+@media (max-width: 640px){
 
 	.menu-wrap-2 {
 		overflow-y: auto;
@@ -218,7 +218,7 @@
 }
 
 /* 2. Small devices (tablets, 767px and Down) */
-@media (max-width: 767px) {
+@media (max-width: 640px) {
 
 	.footer-inner{
 		text-align: center;

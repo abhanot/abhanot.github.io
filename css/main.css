@@ -1,10 +1,3 @@
-/*
-    Name: OAK
-    Version: 1.1
-    Author: EliteFingers
-    Author URI: http://www.elitefingers.com
-*/
-
 /* =Table of Contents
 --------------------------------------------------------------
     /* =Common Styles
@@ -515,16 +508,14 @@ a:hover>span.site-name{
     background: #8e42d1;
     padding: 22px;
     font-weight: 100;
-    margin-left: 10px;
     line-height: 80px;
 }
 .cd-intro {
-    float: left;
-    margin-left: 50%;
+    
 }
 .cd-headline {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 5%;
     color: #000;
     font-weight: 100;
     letter-spacing: 3pt;
