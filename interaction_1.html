@@ -1,0 +1,370 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Western University Technology Review</title>
+        <meta name="description" content="">
+        <meta name="msapplication-tap-highlight" content="yes" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+    
+        <!-- Google Web Font -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
+    
+        <!--  Bootstrap 3-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+        <!-- OWL Carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+    
+        <!--  Slider -->
+        <link rel="stylesheet" href="css/jquery.kenburnsy.css">
+    
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate.css">
+    
+        <!-- Web Icons Font -->
+        <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="css/iconmoon.css">
+        <link rel="stylesheet" href="css/et-line.css">
+        <link rel="stylesheet" href="css/ionicons.css">
+    
+        <!-- Magnific PopUp -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+    
+        <!-- Tabs -->
+        <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+        <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+    
+        <!-- Loader Style -->
+        <link rel="stylesheet" href="css/loader-1.css">
+    
+        <!-- Costum Styles -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/ico" href="favicon.ico">
+    
+        <!-- Modernizer & Respond js -->
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    
+    <body>
+    
+        <!-- Preloader -->
+        <div class="cover"></div>
+    
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                
+                <!-- Menu Hamburger (Default) -->
+                <!-- Menu Hamburger (Default) -->
+                <button class="main-menu-indicator" id="open-button">
+                    <span class="line"></span>
+                </button>
+                
+                <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
+                    <div class="menu-content">
+                        <div class="navigation">
+                            <span class="pe-7s-close close-menu" id="close-button"></span>
+                            <div class="search-wrap js-ui-search">
+                                <input class="js-ui-text" type="text" placeholder="Search Here...">
+                                <span class="eks js-ui-close"></span>
+                            </div>
+                        </div>
+                        <nav class="menu">
+                            <div class="menu-list">
+                                <ul>
+                                    <li class="menu-item-has-children"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="menu-item-has-children"><a href="articles.html">Articles</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+    
+                        <div class="hidden-xs">
+                            <div class="menu-social-media">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/westerntechreview/"><i class="iconmoon-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/westernutechreview/"><i class="iconmoon-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/western-university-technology-review/"><i class="iconmoon-linkedin2"></i></a></li>
+                                </ul>
+                            </div>
+    
+                            <div class="menu-information">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Menu Hamburger (Default) -->
+               
+    
+            </div>
+        </div>
+    <div class="container">
+        <div class="header-page" style="background-image:url(img/articles/header/interaction.jpg); background-size: cover;">
+            <div class="col-md-6 col-md-offset-6">
+                <div class="row">
+                    <div class="inner-content">
+                        <div class="header-content">
+                            <h1>P versus NP</h1>
+                            <p>The Computer Science Problem that Could Change Everything</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="single-portfolio-wrapper">
+            <div class="row">
+                <div class="col-md-8 col-sm-8">                                        
+                    <div class="full-blog-content"> 
+                        <p>     
+                           <h1> Introduction </h1>
+                           <br>
+                            In 2000, the Clay Institute set $1 million prizes (USD) for 7 unsolved mathematical problems that they dubbed the Millennium Problems. Included among these problems is P versus NP, a deceptively simple-looking, yet profoundly complex problem about the nature and definition of problem-solving, itself. 
+                            <br><br>
+                            <h1>What is P versus NP?</h1>
+                            <br>
+                            Although first officially formulated by Steven Cook in his seminal 1971 work “The complexity of theorem proving procedures”, several great mathematicians of the 20th century had inklings of P versus NP and its implications for the vast complexity that exists in problem-solving. John Forbes Nash Jr. (whose life and struggles with paranoid schizophrenia were popularized by the movie, A Beautiful Mind) discussed computational complexity and some of its implications in a series of letters to the National Security Agency (NSA) in 1951. Kurt Gödel also discussed similar topics in his letter to John von Neumann in 1956.
+                            <br><br>
+                            P versus NP can be boiled down to a single question that has surprisingly profound implications for many aspects of society: Is being able to verify a solution to a problem “quickly” the same as being able to solve it “quickly”? For us to continue our discussion of P versus NP, a few  terms and conventions will be defined for the sake of convenience as well as for your own understanding of the topic.
+                            <br><br>
+                            Firstly, being able to solve a problem (or verify the solution to a problem) “quickly” means being able to do so in polynomial time. Basically, this means that the number of steps an algorithm takes to solve a problem (or verify its solution) can be described by some polynomial function for which the inputs are the size of the problem. 
+                            <br><br>
+                            Secondly, “P” stands for polynomial time and is the class of problems which can be solved by a computer in polynomial time (such as multiplication, finding prime numbers, etc.). NP stands for non-deterministic polynomial time, which is slightly confusing and misleading terminology. It describes the set of problems for which a solution can at least be verified in polynomial time but where the problem itself seems to take more than polynomial time to solve from scratch (often exponential time). Essentially, it takes less time to check if a solution is correct than to calculate the solution from scratch. An everyday “NP” problem you’ve probably encountered is a Sudoku Puzzle whereas a “P” problem you have likely encountered is the Rubik’s Cube.  
+                            <br><br>
+                            Finally, an important idea you need to keep in mind is that P versus NP is interested in problems of abstract sizes. By this, I mean that the complexity classes don’t categorize the problems based on whether they take a short time to solve at their smallest possible size, but whether the same algorithm can solve the problem as you scale it up in size. 
+                            <br><br>
+                            It should also be quite easy to see that P is contained in NP since one way to verify the solution to a problem is to do the problem yourself (this is how we often check if the solution to a multiplication problem is correct). 
+                            <br><br>
+                            
+                            A simple complexity map drawn by hackerdashery in his video, “P vs. NP and the Computational Complexity Zoo”—an introduction to the world of computational complexity and theoretical computer science.
+                            <br><br>
+                            <img class = "img-responsive center-block"src = "img/articles/sustainability/1a.png"></img>
+                            <small>A simple complexity map drawn by hackerdashery in his video, “P vs. NP and the Computational Complexity Zoo”—an introduction to the world of computational complexity and theoretical computer science.
+                            </small>
+                            <br>
+                            <br>
+                        
+                            Now that we have all the background information out of the way, let me restate the problem somewhat more formally; Is the statement “P=NP” true or false? Unfortunately, we don’t know the answer to this question. It’s implications, however, are simply astronomical.  It could impact human philosophy, digital security, and cryptography, in addition to a plethora of other subjects.
+                            <br><br>
+                            
+                            I’m going to go more in-depth regarding various aspects of the mathematical side of the problem so that you can better grasp what the problem is about and can more effectively think about its implications. If you just want to see what the implications of the solutions are, then click here to skip to that section.
+                            <br><br>
+                            <h1>What are computational complexity classes?</h1>
+                            <br>
+                            This article has discussed P versus NP as classes of problems which are differentiated by the properties of the methods used to obtain solutions to those problems but computational complexity classes haven’t been clarified so let’s start with what these classes are. 
+                            <br><br>
+                            Computational complexity theory seeks to classify problems based on how difficult they are to practically solve given a deterministic Turing machine (a hypothetical machine formulated by Alan Turing in 1936 for the purpose of exploring the limitations of computability). The practicality and difficulty of a solution are determined by what kind of function most accurately represents the number of steps (the time) it takes to solve a problem, given the size of the problem as the input for the function. A computational complexity class contains all the problems for which the number of steps for the solutions (or their verifications) can be best described by a certain kind of function.
+                            <br><br>
+                            Now that you have a general idea of what these classes are, let us go more in-depth regarding some of the more important classes. 
+                            <br><br>
+                            As I said before, P is the class of problems that can be solved in polynomial time, meaning that the number of steps needed to solve a given P class problem at any size by some algorithm can be described by some polynomial function of the size of the problem. These are described as “quick” because relative to the time it takes to solve problems in other classes such as NP, P problems take very little time. From the mathematical side, this is because problems outside of P tend to take exponential time (or longer) to solve or check. Based off the definition I gave you for polynomial time, you can probably guess what the definition of exponential time is: the number of steps required to solve a given problem (or check a solution to it) can be described as an exponential function of the size of the problem. To illustrate why exponential time problems tend to take longer to solve, let us compare a polynomial function and an exponential function that use the same variables and numbers. 
+                            <br><br>
+                            <img class = "img-responsive center-block"src = "img/articles/interaction/1a.png"></img>
+                            <small>
+                                    As you can see in this graph I generated using the Desmos graphing calculator, we are comparing the polynomial function x^2 (red) to the exponential function 2^x (green). A polynomial function is just a function in which the exponents in the terms of the function are held constant while the base varies (this is 2 and x respectively in our case), whereas an exponential function has a constant base with a variable exponent (2 and x in our case). As you can see, the exponential function has larger values than the polynomial function on the Y-axis (the vertical axis) as the values on the x-axis (the horizontal axis) increase (note: we are only interested in values of x greater than 0 since x here represents the size of a problem and a problem always has some size, which is represented as a positive number).
+                            </small>
+                             
+                            <br><br>
+                            As you can see, as the size of the problem increases, the exponential function increases much faster than the polynomial function. This shows why problems outside of P tend to be harder to solve for computers, as the number of steps is often too large for a computer to feasibly compute a solution to the problem in a reasonable amount of time with the algorithm it is using. Some of these exponential time problems have solutions that can be verified in polynomial time though; these are the NP class problems. One such problem is Sudoku, where solving the problem takes a computer a very long time (for scaled-up versions of the problem) but checking the solution does not take nearly as long. In fact, you can observe this yourself with a regular sudoku grid. It might take you some time to solve it from scratch but once you have a solution you can quickly verify if it is correct
+                            <br><br>
+                            There is also a class of problems in NP called NP-Complete. These problems are NP problems that researchers have found are all in NP due to them all containing the same core difficulty. In fact, it is this property that makes them important to tackling P versus NP. If a polynomial time solution to any of them is found, then the entire NP class would collapse into P proving that P=NP is true. However, there has yet to be such an algorithm that can solve any of them in polynomial time. 
+                            <br><br>
+                            Not all exponential time problems are NP problems. In fact, there are some problems for which solutions can only be verified in exponential time and the solutions to the problems themselves take far longer than just exponential time to solve. These problems are classified as EXP. An example of such a problem is determining the best move to make in a chess game. The calculation for this is unimaginably massive.  In fact, Claude Shannon was able to come up with a conservative lower bound for the number of possible games of chess: about 10120 possible games. For a computer to check which move is the next best move, it would have to run through at least this many games progressions (if not more). This number is unbelievably massive so to put it in perspective let’s say we have a computer that can check 1 million (106) game progressions per second. Now if it wanted to play perfect chess, it would have to run through all 10120 game progressions at least once while playing the game, and when it does, we can calculate the time it would take to run through all 10120 game progressions to be 10194 seconds (I just divided the number of possible game progressions by how many were checked per second). Since there are 31, 536, 000 seconds in a typical 365-day year, that means it would take about 3.17×10186 years to run the calculation for that single move! This should put it into perspective how massive this calculation is and why this problem is an EXP class problem. Many NP problems are like this as well. 
+                            <br><br>
+                            <h1>Why is P versus NP important?</h1>
+                            <br>
+                            Now that we have some of the math and trivia out of the way, let us dive into why this problem is important. First, if you want justification that it is important then just refer to the list of millennium prize problems. They are the most important unsolved mathematics problems to date, at least in the opinion of the Clay Institute (and few would disagree). 
+                            <br><br>
+                            Let us start with digital security. Modern digital security is all based off a simple assumption; P=NP is false (P ≠ NP). This means modern security assumes that NP problems cannot be solved in polynomial time. The reason this is assumed is that everything modern security algorithms do to protect information is to encrypt information with an NP class problem that can only be solved in polynomial time if you have the encryption key (meaning that the algorithms needed to crack modern security encryptions would not be able to do so in polynomial time without the encryption key). No one has been able to prove that P cannot equal NP though and if someone manages to prove that P cannot equal NP, then nothing would change except that algorithm researchers may stop actively looking for faster algorithms to solve NP problems and only rely on the current method of using approximation algorithms (and other such similar algorithms) to solve them in a reasonable amount of time.
+                            <br><br>
+                            If P=NP is proved, then everything about the modern world changes; modern cryptography and security would become effortless to crack, meaning everything from bank accounts to classified information would no longer be safe. Modern society could very well fall apart just because of this. 
+                            <br><br>
+                            If P=NP were to be proven true, then modern philosophy and human beliefs and values would also be turned on their heads. At its core, modern philosophy, beliefs, and value systems assume that P ≠ NP is true. This is why novel approaches that solve problems are highly praised and valued since they are solutions to problems that would have otherwise taken inordinate (if not infinite) amounts of time and/or resources to solve. If P=NP is proven to be true, then the underlying assumption for our values collapses. There would no longer be any value in creating new algorithms to solve any problems since if P=NP is true, that means the algorithm already existed and merely needed to be found. Creativity would become a thing of the past, and if humans are merely discovering rather than creating new ideas and methods for solving problems, then what differentiates us from a computer that does the same (apart from the differences in how we are built and “programmed”)? If P=NP is proven true, that means that there is an algorithm that would allow computers to find the proofs for a given mathematical conjecture and humans would no longer be needed to do so. Although I make it sound like proving P=NP true would be the end of the world as we know it, there are good things that would come out of it as well. While many problems in biology and medicine can be modeled mathematically, some problems such as protein folding are difficult to predict even with computer modeling. If P=NP, then there exists a fast algorithm to figure out how a proteins fold. This would allow us to predict the results of various mutations in genome sequences as well as better combat various protein-related disorders.
+                            <br><br>
+                            <h1>Why does the majority believe P does not equal NP?</h1>
+                            <br>
+                            In a poll of 100 theorists and individuals with knowledge of the P versus NP problem conducted by William I. Gasarch of the University of Maryland, 61 of the 78 who did respond to the question of what they thought the solution was said P ≠ NP was the solution they believed to be correct. Many people believe that P cannot equal NP mostly because of the way our society functions.  Everyday experience tells us that solving a puzzle or a problem is not the same as recognizing that a solution is correct. For example, it’s quite easy to verify a solution to a sudoku puzzle but it is not nearly as easy to solve it. Seemingly, this is true even when using computers to solve sudoku puzzles (albeit those problems tend to be of a far larger scale-for example a 100, 000, 000 by 100, 000, 000 grid instead of the classic 9 by 9 grid). There exists no known polynomial time algorithm to solve the scaled-up versions of the problem. While they are not rigorous proofs, there have been many informal proofs that P ≠ NP. This, however, does not mean that P=NP is impossible (at least to my understanding), as no formal mathematical proof has been able to show otherwise.
+                            <br><br>
+                            <h1>In conclusion </h1>
+                            <br>
+                            There have been many times when conjectures were thought to be false or heavily criticized by many but turned out to be faultless in the end. One such example is the case of the Taniyama-Shimura conjecture (now known as the modularity conjecture), which Andrew Wiles proved to be true for the case of semistable elliptic curves, allowing him to imply Fermat’s Last Theorem by way of Ribet’s Theorem. In fact, it is believed that the criticism Taniyama received of his work left him depressed and ultimately led to his suicide. As such, I believe the question of P versus NP is still an open question even though many great minds believe that P ≠ NP. It is interesting to imagine a world in which P=NP is proven and think of how a seemingly simple problem could have profound ramifications for society, since the majority of people are disconnected from theoretical mathematics and computer science altogether. Scott Aaronson, a complexity researcher at the University of Texas, describes this best in a blog post; “If P = NP, then the world would be a profoundly different place than we usually assume it to be. There would be no special value in "creative leaps," no fundamental gap between solving a problem and recognizing the solution once it's found. Everyone who could appreciate a symphony would be Mozart; everyone who could follow a step-by-step argument would be Gauss; everyone who could recognize a good investment strategy would be Warren Buffett.”
+                            
+                            
+                            
+                            
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-4">
+                    <div class="project-information">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Publication:</td>
+                                    <td>Fall 2018</td>
+                                </tr>
+                                <tr>
+                                    <td>Author:</td>
+                                    <td>Shehan Perera
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td>Editors:</td>
+                                    <td>Aryan Cheena, Faizan Asim</td>
+                                </tr>
+                                <tr>
+                                    <td>Sector:</td>
+                                    <td>Interaction</td>
+                                </tr>
+                                <tr>
+                                    <td>Share:</td>
+                                    <td>
+                                        <ul class="social-buttons">
+                                            <li><a href="https://www.facebook.com/westerntechreview/"><i class="iconmoon-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/westernutechreview/"><i class="iconmoon-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/company/western-university-technology-review/"><i class="iconmoon-linkedin2"></i></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="portfolio-controls">
+            <div class="btn-project home-btn">
+                <a href="index.html" data-hover="Home">
+                    <i class="pe-7s-keypad"></i>
+                </a>
+            </div>
+            <div class="btn-project forward-btn">
+                <a href="sustainability_1.html" data-hover="Next">
+                    <i class="pe-7s-angle-right right"></i>
+                </a>
+            </div>
+            <div class="btn-project back-btn">
+                <a href="biomedecine_9.html" data-hover="Previous">
+                    <i class="pe-7s-angle-left left"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top">
+            <div class="similar-project">
+                <h4>Other Articles</h4>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="img">
+                            <img src="img/articles/icons/bio_8.PNG" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <div class="details">
+                                    <span class="title">Gold</span>
+                                    <span class="info">The key to a cure?</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="biomedecine_8.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="img">
+                            <img src="img/articles/icons/sustainability_1.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                
+                                <div class="details">
+                                    <span class="title">Permafrost Thawing</span>
+                                    <span class="info">The Sleeping Giant of Climate Change</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="sustainability_1.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="img">
+                            <img src="img/articles/icons/bio_9.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <div class="details">
+                                    <span class="title">Virtual Reality</span>
+                                    <span class="info">A Novel Approach to Pain Management</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="biomedecine_9.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer margin-top">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+            
+                    </div>
+    
+                    <div class="col-md-2 col-md-push-8 col-sm-4 col-xs-12">
+                        
+                    </div>
+    
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                            <ul class="social-media">
+                                <li><a href="https://www.facebook.com/westerntechreview/"><i class="iconmoon-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/westernutechreview/"><i class="iconmoon-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/western-university-technology-review/"><i class="iconmoon-linkedin2"></i></a></li>
+                            </ul>
+                            <span class="copyright-mark">&copy; 2018 WUTR, ALL RIGHTS RESERVED</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="javascript:void(0)" class="scroll-top" id="scroll-top"><i class="pe-7s-angle-up"></i></a>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script data-pace-options='{ "ajax": false }' src="js/vendor/pace.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/jquery.velocity.min.js"></script>
+    <script src="js/vendor/jquery.kenburnsy.min.js"></script>
+    <script src="js/vendor/textslide.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/tabs.js"></script>
+    <script src="js/ef-slider.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/jquery.social-buttons.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ajax.js"></script>
+</body>
+
+</html>
